@@ -50,7 +50,8 @@ legend("topright", legend = c("Sub_metering_1",                          ## Add 
                               "Sub_metering_2", 
                               "Sub_metering_3"),
        lty = c(1, 1, 1),
-       col = c("black", "red", "blue"))
+       col = c("black", "red", "blue"),
+       bty = "n")
 
 plot(hhpower.data2$date_time, as.numeric(hhpower.data2$Voltage),  ## Create the third plot
      type = "l",
