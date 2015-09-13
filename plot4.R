@@ -25,7 +25,7 @@ hhpower.data$date_time <- dmy_hms(hhpower.data$date_time)               ## Conve
 
 ## Filter the data to only keep data for February 1st and 2nd
 date1 <- hhpower.data$Date[67000]                                       ## Index February 1st
-date2 <- hhpower.data$Date[69000]                                       ## Index February 1st
+date2 <- hhpower.data$Date[69000]                                       ## Index February 2nd
 hhpower.data2 <- hhpower.data[(hhpower.data$Date == date1) |            ## Subset using the indices
                                       (hhpower.data$Date == date2), ]
 ## Create the charts
